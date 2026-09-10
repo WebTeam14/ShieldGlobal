@@ -104,7 +104,7 @@ const ROW_TWO = PARTNERS.filter((_, i) => i % 2 === 1);
 
 function PartnerCard({ partner }: { partner: Partner }) {
   return (
-    <div className="mx-3 flex h-[110px] w-[220px] shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-sgg-border-default bg-[#000714] shadow-[var(--sgg-e1)] transition-all duration-300 hover:-translate-y-0.5 hover:border-sgg-border-accent hover:shadow-[var(--sgg-e3)] sm:h-[124px] sm:w-[248px]">
+    <div className="mx-2 flex h-[64px] w-[128px] shrink-0 items-center justify-center overflow-hidden rounded-xl border border-sgg-border-default bg-[#000714] shadow-[var(--sgg-e1)] transition-all duration-300 hover:-translate-y-0.5 hover:border-sgg-border-accent hover:shadow-[var(--sgg-e3)] sm:h-[72px] sm:w-[144px]">
       <img
         src={partner.logo}
         alt={partner.name}
@@ -127,7 +127,7 @@ function MarqueeRow({
 }) {
   const loop = [...items, ...items];
   return (
-    <div className="sgg-marquee-track overflow-hidden py-2">
+    <div className="sgg-marquee-track overflow-hidden py-1.5">
       <div
         className={`sgg-marquee ${reverse ? "sgg-marquee-reverse" : ""}`}
         style={{ ["--sgg-marquee-duration" as string]: duration }}
