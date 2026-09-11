@@ -65,7 +65,7 @@ const COMPANIES = [
     ],
     image:
       "https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    website: "/contact", // replace when you have the live URL
+    website: "https://www.cineglare.com/", // replace when you have the live URL
   },
 ];
 
