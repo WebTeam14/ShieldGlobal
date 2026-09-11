@@ -47,7 +47,7 @@ export const SERVICES: ServiceDetail[] = [
     navLabel: "Global Manpower Recruitment",
     title: "Global Manpower Recruitment",
     company: "SHIELD GLOBAL HR SOLUTIONS",
-    websiteUrl: "https://www.shieldglobal.in/",
+    websiteUrl: "https://shieldglobal.in/",
     heroImage:
       "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2000&q=80",
     intro:
@@ -266,6 +266,7 @@ export const SERVICES: ServiceDetail[] = [
     navLabel: "Media & Entertainment",
     title: "Media & Entertainment",
     company: "CineGlare Entertainment",
+    websiteUrl: "https://www.cineglare.com/",
     heroImage:
       "https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg?auto=compress&cs=tinysrgb&w=2000",
     intro:
