@@ -36,8 +36,8 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
   {
     icon: Mail,
     label: "Email",
-    lines: ["info@shieldglobalindia.com"],
-    href: "mailto:info@shieldglobalindia.com",
+    lines: ["info@shieldglobal.ae"],
+    href: "mailto:info@shieldglobal.ae",
     hint: "Response within 24 hours",
   },
   {
